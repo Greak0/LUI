@@ -1,14 +1,14 @@
 LUI
 ------
-Linux User Info - Simple tool to speed up linux system administration.
+Linux User Info - RedHat
 
 How to install?
 ------
 
       cd /tmp/
-      git clone https://github.com/51x/LUI
+      git clone https://github.com/Greak0/LUI
       cd LUI
-      mv lui_debian.sh /sbin/lu
+      mv lui_redhat.sh /sbin/lu
       chmod +x /sbin/lu
       lu
 
@@ -23,4 +23,4 @@ How to use?
         -u List all users with unlocked password.
         -n List users with nologin shell.
 
-        You can use multiple arguments too, eg. "./lui_deb.sh -l -u"
+        You can use multiple arguments too, eg. "lu -l -u"
